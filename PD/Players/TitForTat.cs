@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 
-namespace prisonersdilemma.players {
+using PD;
+
+namespace PD.Players {
     // remembers the last match result and acts accordingly
     class TitForTat : Player {
         private Hashtable lastResult;

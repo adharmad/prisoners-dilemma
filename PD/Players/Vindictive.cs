@@ -2,7 +2,9 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace prisonersdilemma.players {
+using PD;
+
+namespace PD.Players {
     // remembers defection and always defects against that player
     class Vindictive : Player {
         private List<string> playersWhoDefected;

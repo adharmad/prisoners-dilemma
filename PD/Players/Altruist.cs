@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 
-namespace prisonersdilemma.players {
+using PD;
+
+namespace PD.Players {
     // always plays nice
     class Altruist : Player {
         public string GetName() {

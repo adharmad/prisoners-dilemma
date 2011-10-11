@@ -1,6 +1,8 @@
 using System;
 
-namespace prisonersdilemma.players {
+using PD;
+
+namespace PD.Players {
     class RandomPlayer : Player {
         private Random random;
 
