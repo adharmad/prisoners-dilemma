@@ -1,5 +1,5 @@
 using System;
 
-namespace prisonersdilemma {
+namespace PD {
     enum PlayResult {Cooperate, Defect};
 }

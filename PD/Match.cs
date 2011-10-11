@@ -1,8 +1,7 @@
 using System;
 using System.Collections;
 
-namespace prisonersdilemma {
-
+namespace PD {
     class Match {
         private Player first;
         private Player second;

@@ -1,6 +1,6 @@
 using System;
 
-namespace prisonersdilemma {
+namespace PD {
     interface Player {
         void Initialize();
         string GetName();

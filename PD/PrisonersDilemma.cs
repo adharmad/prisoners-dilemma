@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Collections;
 
-namespace prisonersdilemma {
+namespace PD {
     class PrisonersDilemma {
-        public readonly string PLAYER_NAMESPACE = "prisonersdilemma.players";
+        public readonly string PLAYER_NAMESPACE = "PD.Players";
         private List<Player> players;
         private int numGames = 1;
         private Hashtable scores;
@@ -13,7 +13,11 @@ namespace prisonersdilemma {
             "Evil",
             "TitForTat",
             "Vindictive",
-            "RandomPlayer"
+            "RandomPlayer",
+            "ContararyStartingGood",
+            "BadTillOpponentGoesGood",
+            "ContararyStartingBad",
+            "AlternateOnOdd"
         };
 
         public PrisonersDilemma(){
